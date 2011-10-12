@@ -46,6 +46,10 @@ projects[libraries][subdir] = "contrib/apis"
 projects[webform][type]   = "module"
 projects[webform][subdir] = "contrib/content"
 
+; Auto Nodetitle
+projects[auto_nodetitle][type]   = "module"
+projects[auto_nodetitle][subdir] = "contrib/content"
+
 ; --- Optional
 ; CCK
 projects[cck][type]   = "module"

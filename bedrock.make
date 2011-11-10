@@ -19,10 +19,6 @@ projects[admin_tools][subdir] = "contrib/administration"
 projects[backup_migrate][type]   = "module"
 projects[backup_migrate][subdir] = "contrib/administration"
 
-; Global Redirect
-projects[globalredirect][type]   = "module"
-projects[globalredirect][subdir] = "contrib/administration"
-
 ; ImageAPI
 projects[imageapi][type]   = "module"
 projects[imageapi][subdir] = "contrib/administration"
@@ -123,6 +119,10 @@ projects[override_node_options][type]   = "module"
 projects[override_node_options][subdir] = "contrib/permissions"
 
 ; SEO =================================================
+; Global Redirect
+projects[globalredirect][type]   = "module"
+projects[globalredirect][subdir] = "contrib/seo"
+
 ; Google Analytics
 projects[google_analytics][type]   = "module"
 projects[google_analytics][subdir] = "contrib/seo"

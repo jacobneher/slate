@@ -12,8 +12,9 @@ projects[admin][type]   = "module"
 projects[admin][subdir] = "contrib/administration"
 
 ; Admin Tools
-projects[admin_tools][type]   = "module"
-projects[admin_tools][subdir] = "contrib/administration"
+; Using customized version in GitHub account (see below)...
+;projects[admin_tools][type]   = "module"
+;projects[admin_tools][subdir] = "contrib/administration"
 
 ; Backup & Migrate
 projects[backup_migrate][type]   = "module"
@@ -33,23 +34,30 @@ projects[admin_theme][type]   = "module"
 projects[admin_theme][subdir] = "contrib/administration"
 
 ; APIs ================================================
+; Entity API
+projects[entity][type]   = "module"
+projects[entity][subdir] = "contrib/apis"
+
 ; Libraries
 projects[libraries][type]   = "module"
 projects[libraries][subdir] = "contrib/apis"
 
 ; Content =============================================
-; Webform
-projects[webform][type]   = "module"
-projects[webform][subdir] = "contrib/content"
-
 ; Auto Nodetitle
 projects[auto_nodetitle][type]   = "module"
 projects[auto_nodetitle][subdir] = "contrib/content"
 
-; --- Optional
-; CCK
-projects[cck][type]   = "module"
-projects[cck][subdir] = "contrib/content"
+; Display Suite
+projects[ds][type]   = "module"
+projects[ds][subdir] = "contrib/content"
+
+; Panels
+projects[panels][type]   = "module"
+projects[panels][subdir] = "contrib/content"
+
+; Webform
+projects[webform][type]   = "module"
+projects[webform][subdir] = "contrib/content"
 
 ; Development =========================================
 ; CTools
@@ -75,6 +83,27 @@ projects[features][subdir] = "contrib/development"
 ; LESS CSS Preprocessor
 projects[less][type]   = "module"
 projects[less][subdir] = "contrib/development"
+
+; Fields ==============================================
+; Conditional Fields
+projects[conditional_fields][type]   = "module"
+projects[conditional_fields][subdir] = "contrib/fields"
+
+; Date
+projects[date][type]   = "module"
+projects[date][subdir] = "contrib/fields"
+
+; Email
+projects[email][type]   = "module"
+projects[email][subdir] = "contrib/fields"
+
+; Field Collection
+projects[field_collection][type]   = "module"
+projects[field_collection][subdir] = "contrib/fields"
+
+; Field Group
+projects[field_group][type]   = "module"
+projects[field_group][subdir] = "contrib/fields"
 
 ; Filters =============================================
 ; Pathologic
@@ -118,6 +147,11 @@ projects[redirect][subdir] = "contrib/path_management"
 projects[override_node_options][type]   = "module"
 projects[override_node_options][subdir] = "contrib/permissions"
 
+; Rules ===============================================
+; Rules
+projects[rules][type]   = "module"
+projects[rules][subdir] = "contrib/rules"
+
 ; SEO =================================================
 ; Global Redirect
 projects[globalredirect][type]   = "module"
@@ -134,6 +168,10 @@ projects[metatag][subdir] = "contrib/seo"
 ; Page Title
 projects[page_title][type]   = "module"
 projects[page_title][subdir] = "contrib/seo"
+
+; Path Redirect
+projects[path_redirect][type]   = "module"
+projects[path_redirect][subdir] = "contrib/seo"
 
 ; XML Sitemap
 projects[xmlsitemap][type]   = "module"
@@ -162,7 +200,15 @@ projects[wysiwyg][subdir] = "contrib/user_interface"
 projects[login_destination][type]   = "module"
 projects[login_destination][subdir] = "contrib/users"
 
+; Login Toboggan
+projects[logintoboggan][type]   = "module"
+projects[logintoboggan][subdir] = "contrib/users"
+
 ; Utilities ===========================================
+; Copyright block
+projects[copyright_block][type]   = "module"
+projects[copyright_block][subdir] = "contrib/utilities"
+
 ; DB Maintenance
 projects[db_maintenance][type]   = "module"
 projects[db_maintenance][subdir] = "contrib/utilities"
@@ -181,7 +227,19 @@ projects[views][type]   = "module"
 projects[views][subdir] = "contrib/views"
 
 ; Custom ========================================================
-;dependencies[] = itspecialists_promo
+; Admin Tools (Customized)
+projects[admin_tools][type]   = "module"
+projects[admin_tools][subdir] = "custom"
+projects[admin_tools][download][type] = "git"
+projects[admin_tools][download][url] = "git://github.com/jacobneher/admin_tools.git"
+projects[admin_tools][download][branch] = "master"
+
+; Promote
+projects[promote][type]   = "module"
+projects[promote][subdir] = "custom"
+projects[promote][download][type] = "git"
+projects[promote][download][url] = "git://github.com/jacobneher/promote.git"
+projects[promote][download][branch] = "master"
 
 
 ; Themes ==================================================================

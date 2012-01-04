@@ -20,6 +20,10 @@ projects[admin][subdir] = "contrib/administration"
 projects[backup_migrate][type]   = "module"
 projects[backup_migrate][subdir] = "contrib/administration"
 
+; Content Type Extras
+projects[content_type_extras][type]   = "module"
+projects[content_type_extras][subdir] = "contrib/administration"
+
 ; ImageAPI
 projects[imageapi][type]   = "module"
 projects[imageapi][subdir] = "contrib/administration"
@@ -169,10 +173,6 @@ projects[metatag][subdir] = "contrib/seo"
 projects[page_title][type]   = "module"
 projects[page_title][subdir] = "contrib/seo"
 
-; Path Redirect
-projects[path_redirect][type]   = "module"
-projects[path_redirect][subdir] = "contrib/seo"
-
 ; XML Sitemap
 projects[xmlsitemap][type]   = "module"
 projects[xmlsitemap][subdir] = "contrib/seo"
@@ -240,6 +240,14 @@ projects[promote][subdir] = "custom"
 projects[promote][download][type] = "git"
 projects[promote][download][url] = "git://github.com/jacobneher/promote.git"
 projects[promote][download][branch] = "master"
+
+
+; Install Profiles ========================================================
+; Bedrock
+projects[bedrock][type]   = "profile"
+projects[bedrock][download][type] = "git"
+projects[bedrock][download][url] = "git://github.com/jacobneher/bedrock_profile.git"
+projects[bedrock][download][branch] = "aegir"
 
 
 ; Themes ==================================================================

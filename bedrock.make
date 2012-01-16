@@ -84,9 +84,9 @@ projects[drupalforfirebug][subdir] = "contrib/development"
 projects[features][type]   = "module"
 projects[features][subdir] = "contrib/development"
 
-; LESS CSS Preprocessor
-projects[less][type]   = "module"
-projects[less][subdir] = "contrib/development"
+; SASS CSS Preprocessor
+projects[sassy][type]   = "module"
+projects[sassy][subdir] = "contrib/development"
 
 ; Fields ==============================================
 ; Conditional Fields

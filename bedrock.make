@@ -84,7 +84,12 @@ projects[drupalforfirebug][subdir] = "contrib/development"
 projects[features][type]   = "module"
 projects[features][subdir] = "contrib/development"
 
-; SASS CSS Preprocessor
+; Prepro
+; Required by Sassy
+projects[prepro][type]   = "module"
+projects[prepro][subdir] = "contrib/development"
+
+; SASSy CSS Preprocessor
 projects[sassy][type]   = "module"
 projects[sassy][subdir] = "contrib/development"
 

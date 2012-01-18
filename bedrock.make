@@ -278,3 +278,9 @@ libraries[ckeditor][download][type] = "get"
 libraries[ckeditor][download][url]  = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.2/ckeditor_3.6.2.zip"
 libraries[ckeditor][directory_name] = "ckeditor"
 libraries[ckeditor][destination]    = "libraries"
+
+; PHtmlP
+; This is needed for Prepro
+libraries[phamlp][download][type] = "git"
+libraries[phamlp][download][url] = "git://github.com/richthegeek/phamlp.git"
+libraries[phamlp][download][branch] = "master"

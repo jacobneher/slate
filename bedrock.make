@@ -273,11 +273,12 @@ projects[doohickey][download][url] = "git://github.com/jacobneher/doohickey_them
 project[doohickey][download][branch] = "master"
   
 ; Libraries ===============================================================
-; CKEditor
-libraries[ckeditor][download][type] = "get"
-libraries[ckeditor][download][url]  = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.2/ckeditor_3.6.2.zip"
-libraries[ckeditor][directory_name] = "ckeditor"
-libraries[ckeditor][destination]    = "libraries"
+; TinyMCE
+; We have to pull the git repo because we cannot connect to the https on github with Drush Make
+libraries[tinymce][download][type] = "git"
+libraries[tinymce][download][url]  = "git://github.com/tinymce/tinymce.git"
+libraries[tinymce][directory_name] = "tinymce"
+libraries[tinymce][destination]    = "libraries"
 
 ; PHtmlP
 ; This is needed for Prepro

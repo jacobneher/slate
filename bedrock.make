@@ -1,3 +1,5 @@
+; Version: 1.0
+
 api  = 2
 core = 7.x
 
@@ -12,9 +14,8 @@ projects[admin][type]   = "module"
 projects[admin][subdir] = "contrib/administration"
 
 ; Admin Tools
-; Using customized version in GitHub account (see below)...
-;projects[admin_tools][type]   = "module"
-;projects[admin_tools][subdir] = "contrib/administration"
+projects[admin_tools][type]   = "module"
+projects[admin_tools][subdir] = "contrib/administration"
 
 ; Backup & Migrate
 projects[backup_migrate][type]   = "module"
@@ -232,13 +233,6 @@ projects[views][type]   = "module"
 projects[views][subdir] = "contrib/views"
 
 ; Custom ========================================================
-; Admin Tools (Customized)
-projects[admin_tools][type]   = "module"
-projects[admin_tools][subdir] = "custom"
-projects[admin_tools][download][type] = "git"
-projects[admin_tools][download][url] = "git://github.com/jacobneher/admin_tools.git"
-projects[admin_tools][download][branch] = "master"
-
 ; Promote
 projects[promote][type]   = "module"
 projects[promote][subdir] = "custom"

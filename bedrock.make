@@ -1,4 +1,4 @@
-; Version: 1.0
+; Version: 1.1
 
 api  = 2
 core = 7.x
@@ -24,10 +24,6 @@ projects[backup_migrate][subdir] = "contrib/administration"
 ; Content Type Extras
 projects[content_type_extras][type]   = "module"
 projects[content_type_extras][subdir] = "contrib/administration"
-
-; ImageAPI
-projects[imageapi][type]   = "module"
-projects[imageapi][subdir] = "contrib/administration"
 
 ; Menu Admin Per Menu
 projects[menu_admin_per_menu][type]   = "module"
@@ -80,10 +76,6 @@ projects[devel][subdir] = "contrib/development"
 ; DrupalforFirebug
 projects[drupalforfirebug][type]   = "module"
 projects[drupalforfirebug][subdir] = "contrib/development"
-
-; Features
-projects[features][type]   = "module"
-projects[features][subdir] = "contrib/development"
 
 ; Prepro
 ; Required by Sassy

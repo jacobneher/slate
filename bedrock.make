@@ -238,7 +238,7 @@ projects[promote][download][branch] = "master"
 projects[bedrock][type]   = "profile"
 projects[bedrock][download][type] = "git"
 projects[bedrock][download][url] = "git://github.com/jacobneher/bedrock_profile.git"
-projects[bedrock][download][branch] = "aegir"
+projects[bedrock][download][branch] = "master"
 
 
 ; Themes ==================================================================
@@ -269,5 +269,5 @@ libraries[tinymce][destination]    = "libraries"
 ; PHtmlP
 ; This is needed for Prepro
 libraries[phamlp][download][type] = "git"
-libraries[phamlp][download][url] = "git://github.com/richthegeek/phamlp.git"
+libraries[phamlp][download][url] = "git://github.com/richthegeek/phpsass.git"
 libraries[phamlp][download][branch] = "master"

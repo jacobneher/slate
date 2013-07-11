@@ -229,7 +229,7 @@ projects[views][subdir] = "contrib/views"
 projects[promote][type]   = "module"
 projects[promote][subdir] = "custom"
 projects[promote][download][type] = "git"
-projects[promote][download][url] = "git://github.com/jacobneher/promote.git"
+projects[promote][download][url] = "https://github.com/jacobneher/promote.git"
 projects[promote][download][branch] = "master"
 
 
@@ -237,7 +237,7 @@ projects[promote][download][branch] = "master"
 ; Bedrock
 projects[bedrock][type]   = "profile"
 projects[bedrock][download][type] = "git"
-projects[bedrock][download][url] = "git://github.com/jacobneher/bedrock_profile.git"
+projects[bedrock][download][url] = "https://github.com/jacobneher/bedrock_profile.git"
 projects[bedrock][download][branch] = "master"
 
 
@@ -249,25 +249,25 @@ projects[omega][subdir] = "base"
 ; Omega Starterkit
 projects[subtheme][type] = "theme"
 projects[subtheme][download][type] = "git"
-projects[subtheme][download][url] = "git://github.com/jacobneher/starterkits.git"
+projects[subtheme][download][url] = "https://github.com/jacobneher/starterkits.git"
 projects[subtheme][download][branch] = "html5"
 
 ; Doohickey (Seven subtheme)
 projects[doohickey][type] = "theme"
 projects[doohickey][download][type] = "git"
-projects[doohickey][download][url] = "git://github.com/jacobneher/doohickey_theme.git"
+projects[doohickey][download][url] = "https://github.com/jacobneher/doohickey_theme.git"
 project[doohickey][download][branch] = "master"
   
 ; Libraries ===============================================================
 ; TinyMCE
 ; We have to pull the git repo because we cannot connect to the https on github with Drush Make
 libraries[tinymce][download][type] = "git"
-libraries[tinymce][download][url]  = "git://github.com/tinymce/tinymce.git"
+libraries[tinymce][download][url]  = "https://github.com/tinymce/tinymce.git"
 libraries[tinymce][directory_name] = "tinymce"
 libraries[tinymce][destination]    = "libraries"
 
 ; PHtmlP
 ; This is needed for Prepro
 libraries[phamlp][download][type] = "git"
-libraries[phamlp][download][url] = "git://github.com/richthegeek/phpsass.git"
+libraries[phamlp][download][url] = "https://github.com/richthegeek/phpsass.git"
 libraries[phamlp][download][branch] = "master"

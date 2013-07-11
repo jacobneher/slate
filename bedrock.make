@@ -242,8 +242,10 @@ projects[bedrock][download][branch] = "master"
 
 ; Themes ==================================================================
 ; Omega
-projects[omega][type]   = "theme"
-projects[omega][subdir] = "base"
+projects[omega][type]    = "theme"
+projects[omega][subdir]  = "base"
+; We are using version 3 because version 4 was a complete rewrite and I haven't had a chance to look at using it yet.
+projects[omega][version] = 3 
 
 ; Omega Starterkit
 projects[subtheme][type] = "theme"

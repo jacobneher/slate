@@ -266,8 +266,8 @@ libraries[tinymce][download][url]  = "https://github.com/tinymce/tinymce.git"
 libraries[tinymce][directory_name] = "tinymce"
 libraries[tinymce][destination]    = "libraries"
 
-; PHtmlP
+; PHPSass
 ; This is needed for Prepro
-libraries[phamlp][download][type] = "git"
-libraries[phamlp][download][url] = "https://github.com/richthegeek/phpsass.git"
-libraries[phamlp][download][branch] = "master"
+libraries[phpsass][download][type] = "git"
+libraries[phpsass][download][url] = "https://github.com/richthegeek/phpsass.git"
+libraries[phpsass][download][branch] = "master"

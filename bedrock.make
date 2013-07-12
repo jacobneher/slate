@@ -8,13 +8,9 @@ projects[] = drupal
 ; Modules =================================================================
 ; Contrib =======================================================
 ; Administration ======================================
-; Admin
-projects[admin][type]   = "module"
-projects[admin][subdir] = "contrib/administration"
-
-; Admin Tools
-projects[admin_tools][type]   = "module"
-projects[admin_tools][subdir] = "contrib/administration"
+; Admin Menu
+projects[admin_menu][type]   = "module"
+projects[admin_menu][subdir] = "contrib/administration"
 
 ; Backup & Migrate
 projects[backup_migrate][type]   = "module"

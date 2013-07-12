@@ -166,10 +166,6 @@ projects[google_analytics][subdir] = "contrib/seo"
 projects[metatag][type]   = "module"
 projects[metatag][subdir] = "contrib/seo"
 
-; Page Title
-projects[page_title][type]   = "module"
-projects[page_title][subdir] = "contrib/seo"
-
 ; XML Sitemap
 projects[xmlsitemap][type]   = "module"
 projects[xmlsitemap][subdir] = "contrib/seo"

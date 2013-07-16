@@ -60,9 +60,9 @@ projects[webform][subdir] = "contrib/content"
 projects[ctools][type]   = "module"
 projects[ctools][subdir] = "contrib/development"
 
-; Development Banner
-projects[dev_banner][type]   = "module"
-projects[dev_banner][subdir] = "contrib/development"
+; Environment Indicator
+projects[environment_indicator][type]   = "module"
+projects[environment_indicator][subdir] = "contrib/development"
 
 ; Devel
 projects[devel][type]   = "module"

@@ -63,6 +63,8 @@ projects[ctools][subdir] = "contrib/development"
 ; Environment Indicator
 projects[environment_indicator][type]   = "module"
 projects[environment_indicator][subdir] = "contrib/development"
+; Have to download the 2.x development version for the updated functionality
+projects[environment_indicator][version] = "2.x-dev"
 
 ; Devel
 projects[devel][type]   = "module"

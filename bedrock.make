@@ -67,6 +67,8 @@ projects[environment_indicator][subdir] = "contrib/development"
 projects[environment_indicator][version] = "2.x-dev"
 ; Issue #2001076: drupal 7 environment indicator - syntax error during installation
 projects[environment_indicator][patch][2001076] = http://drupal.org/files/syntax-error-during-installation-2001076-3.patch\
+; Issue #2042011: Doesn't update properly with admin_menu enabled
+projects[environment_indicator][patch][2042011] = http://drupal.org/files/doesnt_update_properly_with_admin_menu_enabled-2042011-1.patch
 
 ; Devel
 projects[devel][type]   = "module"

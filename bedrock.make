@@ -74,15 +74,6 @@ projects[devel][subdir] = "contrib/development"
 projects[drupalforfirebug][type]   = "module"
 projects[drupalforfirebug][subdir] = "contrib/development"
 
-; Prepro
-; Required by Sassy
-projects[prepro][type]   = "module"
-projects[prepro][subdir] = "contrib/development"
-
-; SASSy CSS Preprocessor
-projects[sassy][type]   = "module"
-projects[sassy][subdir] = "contrib/development"
-
 ; Fields ==============================================
 ; Conditional Fields
 projects[conditional_fields][type]   = "module"
@@ -260,9 +251,3 @@ libraries[tinymce][download][type] = "git"
 libraries[tinymce][download][url]  = "https://github.com/tinymce/tinymce.git"
 libraries[tinymce][directory_name] = "tinymce"
 libraries[tinymce][destination]    = "libraries"
-
-; PHPSass
-; This is needed for Prepro
-libraries[phpsass][download][type] = "git"
-libraries[phpsass][download][url] = "https://github.com/richthegeek/phpsass.git"
-libraries[phpsass][download][branch] = "master"

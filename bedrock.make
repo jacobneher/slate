@@ -65,8 +65,8 @@ projects[environment_indicator][type]   = "module"
 projects[environment_indicator][subdir] = "contrib/development"
 ; Have to download the 2.x development version for the updated functionality
 projects[environment_indicator][version] = "2.x-dev"
-; Issue #2001076: drupal 7 environment inidicator - syntax error during installation
-projects[environment_indicator][patch][2001076] = https://drupal.org/files/syntax-error-during-installation-2001076-3.patch
+; Issue #2001076: drupal 7 environment indicator - syntax error during installation
+projects[environment_indicator][patch][2001076] = http://drupal.org/files/syntax-error-during-installation-2001076-3.patch\
 
 ; Devel
 projects[devel][type]   = "module"

@@ -205,36 +205,36 @@ projects[views][subdir] = "contrib/views"
 
 ; Custom ========================================================
 ; Promote
-projects[promote][type]   = "module"
-projects[promote][subdir] = "custom"
-projects[promote][download][type] = "git"
-projects[promote][download][url] = "https://github.com/jacobneher/promote.git"
+projects[promote][type]             = "module"
+projects[promote][subdir]           = "custom"
+projects[promote][download][type]   = "git"
+projects[promote][download][url]    = "https://github.com/jacobneher/promote.git"
 projects[promote][download][branch] = "master"
 
 
 ; Install Profiles ========================================================
 ; Bedrock
-projects[bedrock][type]   = "profile"
-projects[bedrock][download][type] = "git"
-projects[bedrock][download][url] = "https://github.com/jacobneher/bedrock_profile.git"
+projects[bedrock][type]             = "profile"
+projects[bedrock][download][type]   = "git"
+projects[bedrock][download][url]    = "https://github.com/jacobneher/bedrock_profile.git"
 projects[bedrock][download][branch] = "master"
 
 
 ; Themes ==================================================================
 ; Omega
-projects[omega][type]    = "theme"
-projects[omega][subdir]  = "base"
+projects[omega][type]   = "theme"
+projects[omega][subdir] = "base"
 
 ; Omega Starterkit
-projects[subtheme][type] = "theme"
-projects[subtheme][download][type] = "git"
-projects[subtheme][download][url] = "https://github.com/jacobneher/starterkits.git"
+projects[subtheme][type]             = "theme"
+projects[subtheme][download][type]   = "git"
+projects[subtheme][download][url]    = "https://github.com/jacobneher/starterkits.git"
 projects[subtheme][download][branch] = "html5"
 
 ; Doohickey (Seven subtheme)
-projects[doohickey][type] = "theme"
-projects[doohickey][download][type] = "git"
-projects[doohickey][download][url] = "https://github.com/jacobneher/doohickey_theme.git"
+projects[doohickey][type]            = "theme"
+projects[doohickey][download][type]  = "git"
+projects[doohickey][download][url]   = "https://github.com/jacobneher/doohickey_theme.git"
 project[doohickey][download][branch] = "master"
   
 ; Libraries ===============================================================

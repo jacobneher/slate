@@ -83,10 +83,6 @@ projects[drupalforfirebug][subdir] = "contrib/development"
 projects[conditional_fields][type]   = "module"
 projects[conditional_fields][subdir] = "contrib/fields"
 
-; Date
-projects[date][type]   = "module"
-projects[date][subdir] = "contrib/fields"
-
 ; Email
 projects[email][type]   = "module"
 projects[email][subdir] = "contrib/fields"

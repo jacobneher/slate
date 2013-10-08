@@ -141,11 +141,6 @@ projects[redirect][subdir] = "contrib/path_management"
 projects[override_node_options][type]   = "module"
 projects[override_node_options][subdir] = "contrib/permissions"
 
-; Rules ===============================================
-; Rules
-projects[rules][type]   = "module"
-projects[rules][subdir] = "contrib/rules"
-
 ; SEO =================================================
 ; Global Redirect
 projects[globalredirect][type]   = "module"

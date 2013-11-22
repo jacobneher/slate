@@ -12,6 +12,10 @@ projects[] = drupal
 projects[admin_menu][type]   = "module"
 projects[admin_menu][subdir] = "contrib/administration"
 
+; Adminimal Admin Menu
+projects[adminimal_admin_menu][type]   = "module"
+projects[adminimal_admin_menu][subdir] = "contrib/administration"
+
 ; Admin Theme
 projects[admin_theme][type]   = "module"
 projects[admin_theme][subdir] = "contrib/administration"

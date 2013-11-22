@@ -226,11 +226,15 @@ projects[subtheme][download][type]   = "git"
 projects[subtheme][download][url]    = "https://github.com/jacobneher/starterkits.git"
 projects[subtheme][download][branch] = "html5"
 
-; Doohickey (Seven subtheme)
-projects[doohickey][type]            = "theme"
-projects[doohickey][download][type]  = "git"
-projects[doohickey][download][url]   = "https://github.com/jacobneher/doohickey_theme.git"
-project[doohickey][download][branch] = "master"
+; Adminimal (Administration theme)
+projects[adminimal_theme][type]   = "theme"
+projects[adminimal_theme][subdir] = "base"
+
+; Rubbles (Seven subtheme)
+projects[rubbles][type]            = "theme"
+projects[rubbles][download][type]  = "git"
+projects[rubbles][download][url]   = "https://github.com/jacobneher/rubbles_theme.git"
+project[rubbles][download][branch] = "master"
   
 ; Libraries ===============================================================
 ; TinyMCE

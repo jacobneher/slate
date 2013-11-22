@@ -12,6 +12,10 @@ projects[] = drupal
 projects[admin_menu][type]   = "module"
 projects[admin_menu][subdir] = "contrib/administration"
 
+; Admin Theme
+projects[admin_theme][type]   = "module"
+projects[admin_theme][subdir] = "contrib/administration"
+
 ; Backup & Migrate
 projects[backup_migrate][type]   = "module"
 projects[backup_migrate][subdir] = "contrib/administration"
@@ -23,11 +27,6 @@ projects[content_type_extras][subdir] = "contrib/administration"
 ; Menu Admin Per Menu
 projects[menu_admin_per_menu][type]   = "module"
 projects[menu_admin_per_menu][subdir] = "contrib/administration"
-
-; --- Optional
-; Admin Theme
-projects[admin_theme][type]   = "module"
-projects[admin_theme][subdir] = "contrib/administration"
 
 ; APIs ================================================
 ; Entity API

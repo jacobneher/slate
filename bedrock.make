@@ -226,10 +226,10 @@ projects[omega][type]   = "theme"
 projects[omega][subdir] = "base"
 
 ; Omega Starterkit
-projects[subtheme][type]             = "theme"
-projects[subtheme][download][type]   = "git"
-projects[subtheme][download][url]    = "https://github.com/jacobneher/flintstones_theme.git"
-projects[subtheme][download][branch] = "master"
+projects[flintstones][type]             = "theme"
+projects[flintstones][download][type]   = "git"
+projects[flintstones][download][url]    = "https://github.com/jacobneher/flintstones_theme.git"
+projects[flintstones][download][branch] = "master"
 
 ; Adminimal (Administration theme)
 projects[adminimal_theme][type]   = "theme"

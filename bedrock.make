@@ -67,7 +67,8 @@ projects[ctools][subdir] = "contrib/development"
 projects[environment_indicator][type]   = "module"
 projects[environment_indicator][subdir] = "contrib/development"
 ; Have to download the 2.x development version for the updated functionality
-projects[environment_indicator][version] = "2.x-dev"
+; NOT DOWNLOADING DEV VERSION AS IT CURRENTLY (11/27/13) HAS BUGS!!
+;projects[environment_indicator][version] = "2.x-dev"
 
 ; Devel
 projects[devel][type]   = "module"
@@ -227,8 +228,8 @@ projects[omega][subdir] = "base"
 ; Omega Starterkit
 projects[subtheme][type]             = "theme"
 projects[subtheme][download][type]   = "git"
-projects[subtheme][download][url]    = "https://github.com/jacobneher/starterkits.git"
-projects[subtheme][download][branch] = "html5"
+projects[subtheme][download][url]    = "https://github.com/jacobneher/flintstones_theme.git"
+projects[subtheme][download][branch] = "master"
 
 ; Adminimal (Administration theme)
 projects[adminimal_theme][type]   = "theme"

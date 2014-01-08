@@ -79,10 +79,6 @@ projects[drupalforfirebug][type]   = "module"
 projects[drupalforfirebug][subdir] = "contrib/development"
 
 ; Fields ==============================================
-; Conditional Fields
-projects[conditional_fields][type]   = "module"
-projects[conditional_fields][subdir] = "contrib/fields"
-
 ; Email
 projects[email][type]   = "module"
 projects[email][subdir] = "contrib/fields"

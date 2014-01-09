@@ -161,8 +161,8 @@ projects[permission_select][subdir] = "contrib/administration"
 
 ; User Interface ======================================
 ; Quickbar
-projects[quickbar][type]   = "module"
-projects[quickbar][subdir] = "contrib/user_interface"
+;projects[quickbar][type]   = "module"
+;projects[quickbar][subdir] = "contrib/user_interface"
 
 ; WYSIWYG
 projects[wysiwyg][type]   = "module"

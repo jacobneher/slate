@@ -212,7 +212,7 @@ projects[promote][download][branch] = "master"
 ; Bedrock
 projects[bedrock][type]             = "profile"
 projects[bedrock][download][type]   = "git"
-projects[bedrock][download][url]    = "https://github.com/jacobneher/bedrock_profile.git"
+projects[bedrock][download][url]    = "https://github.com/jacobneher/bedrock.git"
 projects[bedrock][download][branch] = "master"
 
 
@@ -224,7 +224,7 @@ projects[omega][subdir] = "base"
 ; Omega Starterkit
 projects[flintstones][type]             = "theme"
 projects[flintstones][download][type]   = "git"
-projects[flintstones][download][url]    = "https://github.com/jacobneher/flintstones_theme.git"
+projects[flintstones][download][url]    = "https://github.com/jacobneher/flintstones.git"
 projects[flintstones][download][branch] = "master"
 
 ; Adminimal (Administration theme)
@@ -234,7 +234,7 @@ projects[adminimal_theme][subdir] = "base"
 ; Rubbles (Seven subtheme)
 projects[rubbles][type]            = "theme"
 projects[rubbles][download][type]  = "git"
-projects[rubbles][download][url]   = "https://github.com/jacobneher/rubbles_theme.git"
+projects[rubbles][download][url]   = "https://github.com/jacobneher/rubbles.git"
 project[rubbles][download][branch] = "master"
   
 ; Libraries ===============================================================

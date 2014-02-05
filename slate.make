@@ -27,6 +27,7 @@ projects[backup_migrate][subdir] = "contrib/administration"
 ; Content Type Extras
 projects[content_type_extras][type]   = "module"
 projects[content_type_extras][subdir] = "contrib/administration"
+projects[content_type_extras][subdir] = 1.x-dev
 
 ; Menu Admin Per Menu
 projects[menu_admin_per_menu][type]   = "module"
@@ -66,9 +67,6 @@ projects[ctools][subdir] = "contrib/development"
 ; Environment Indicator
 projects[environment_indicator][type]   = "module"
 projects[environment_indicator][subdir] = "contrib/development"
-; Have to download the 2.x development version for the updated functionality
-; NOT DOWNLOADING DEV VERSION AS IT CURRENTLY (11/27/13) HAS BUGS!!
-;projects[environment_indicator][version] = "2.x-dev"
 
 ; Devel
 projects[devel][type]   = "module"

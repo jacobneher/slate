@@ -24,11 +24,6 @@ projects[admin_theme][subdir] = "contrib/administration"
 projects[backup_migrate][type]   = "module"
 projects[backup_migrate][subdir] = "contrib/administration"
 
-; Content Type Extras
-projects[content_type_extras][type]   = "module"
-projects[content_type_extras][subdir] = "contrib/administration"
-projects[content_type_extras][subdir] = 1.x-dev
-
 ; Menu Admin Per Menu
 projects[menu_admin_per_menu][type]   = "module"
 projects[menu_admin_per_menu][subdir] = "contrib/administration"
@@ -46,6 +41,11 @@ projects[libraries][subdir] = "contrib/apis"
 ; Auto Nodetitle
 projects[auto_nodetitle][type]   = "module"
 projects[auto_nodetitle][subdir] = "contrib/content"
+
+; Content Type Extras
+projects[content_type_extras][type]   = "module"
+projects[content_type_extras][subdir] = "contrib/content"
+projects[content_type_extras][subdir] = 1.x-dev
 
 ; Display Suite
 projects[ds][type]   = "module"

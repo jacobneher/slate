@@ -43,8 +43,8 @@ projects[auto_entitylabel][type]   = "module"
 projects[auto_entitylabel][subdir] = "contrib/content"
 
 ; Content Type Extras
-projects[content_type_extras][type]   = "module"
-projects[content_type_extras][subdir] = "contrib/content"
+projects[content_type_extras][type]    = "module"
+projects[content_type_extras][subdir]  = "contrib/content"
 projects[content_type_extras][version] = 1.x-dev
 
 ; Display Suite

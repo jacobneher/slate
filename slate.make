@@ -38,9 +38,9 @@ projects[libraries][type]   = "module"
 projects[libraries][subdir] = "contrib/apis"
 
 ; Content =============================================
-; Auto Nodetitle
-projects[auto_nodetitle][type]   = "module"
-projects[auto_nodetitle][subdir] = "contrib/content"
+; Automatic Entity Label
+projects[auto_entitylabel][type]   = "module"
+projects[auto_entitylabel][subdir] = "contrib/content"
 
 ; Content Type Extras
 projects[content_type_extras][type]   = "module"
@@ -234,7 +234,7 @@ projects[rubbles][type]            = "theme"
 projects[rubbles][download][type]  = "git"
 projects[rubbles][download][url]   = "https://github.com/jacobneher/rubbles.git"
 project[rubbles][download][branch] = "master"
-  
+
 ; Libraries ===============================================================
 ; TinyMCE
 ; We have to pull the git repo because we cannot connect to the https on github with Drush Make

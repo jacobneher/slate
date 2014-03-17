@@ -219,7 +219,7 @@ projects[bedrock][download][branch] = "master"
 projects[omega][type]   = "theme"
 projects[omega][subdir] = "base"
 
-; Omega Starterkit
+; Omega 4.x Custom Subtheme
 projects[flintstones][type]             = "theme"
 projects[flintstones][download][type]   = "git"
 projects[flintstones][download][url]    = "https://github.com/jacobneher/flintstones.git"
@@ -234,11 +234,3 @@ projects[rubbles][type]            = "theme"
 projects[rubbles][download][type]  = "git"
 projects[rubbles][download][url]   = "https://github.com/jacobneher/rubbles.git"
 project[rubbles][download][branch] = "master"
-
-; Libraries ===============================================================
-; TinyMCE
-; We have to pull the git repo because we cannot connect to the https on github with Drush Make
-libraries[tinymce][download][type] = "git"
-libraries[tinymce][download][url]  = "https://github.com/tinymce/tinymce.git"
-libraries[tinymce][directory_name] = "tinymce"
-libraries[tinymce][destination]    = "libraries"

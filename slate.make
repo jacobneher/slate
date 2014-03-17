@@ -103,16 +103,6 @@ projects[spamspan][subdir] = "contrib/filters"
 projects[jquery_update][type]   = "module"
 projects[jquery_update][subdir] = "contrib/javascript_utilities"
 
-; Media ===============================================
-; --- Optional
-; IMCE
-projects[imce][type]   = "module"
-projects[imce][subdir] = "contrib/media"
-
-; IMCE WYSIWYG
-projects[imce_wysiwyg][type]   = "module"
-projects[imce_wysiwyg][subdir] = "contrib/media"
-
 ; Path Management =====================================
 ; External Link
 projects[extlink][type]   = "module"

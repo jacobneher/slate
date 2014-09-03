@@ -9,188 +9,117 @@ projects[] = drupal
 ; Contrib =======================================================
 ; Administration ======================================
 ; Admin Menu
-projects[admin_menu][type]   = "module"
-projects[admin_menu][subdir] = "contrib/administration"
+projects[admin_menu][type] = "module"
 
 ; Adminimal Admin Menu
-projects[adminimal_admin_menu][type]   = "module"
-projects[adminimal_admin_menu][subdir] = "contrib/administration"
+projects[adminimal_admin_menu][type] = "module"
 
 ; Admin Theme
-projects[admin_theme][type]   = "module"
-projects[admin_theme][subdir] = "contrib/administration"
+projects[admin_theme][type] = "module"
 
 ; Backup & Migrate
-projects[backup_migrate][type]   = "module"
-projects[backup_migrate][subdir] = "contrib/administration"
-
-; Menu Admin Per Menu
-projects[menu_admin_per_menu][type]   = "module"
-projects[menu_admin_per_menu][subdir] = "contrib/administration"
+projects[backup_migrate][type] = "module"
 
 ; APIs ================================================
 ; Entity API
-projects[entity][type]   = "module"
-projects[entity][subdir] = "contrib/apis"
+projects[entity][type] = "module"
 
 ; Libraries
-projects[libraries][type]   = "module"
-projects[libraries][subdir] = "contrib/apis"
+projects[libraries][type] = "module"
 
 ; Content =============================================
 ; Automatic Entity Label
-projects[auto_entitylabel][type]   = "module"
-projects[auto_entitylabel][subdir] = "contrib/content"
+projects[auto_entitylabel][type] = "module"
 
 ; Content Type Extras
-projects[content_type_extras][type]    = "module"
-projects[content_type_extras][subdir]  = "contrib/content"
-projects[content_type_extras][version] = 1.x-dev
+projects[content_type_extras][type] = "module"
 
 ; Display Suite
-projects[ds][type]   = "module"
-projects[ds][subdir] = "contrib/content"
+projects[ds][type] = "module"
 
 ; Panels
-projects[panels][type]   = "module"
-projects[panels][subdir] = "contrib/content"
+projects[panels][type] = "module"
 
 ; Webform
-projects[webform][type]   = "module"
-projects[webform][subdir] = "contrib/content"
+projects[webform][type] = "module"
 
 ; Development =========================================
 ; CTools
-projects[ctools][type]   = "module"
-projects[ctools][subdir] = "contrib/development"
+projects[ctools][type] = "module"
 
 ; Environment Indicator
-projects[environment_indicator][type]   = "module"
-projects[environment_indicator][subdir] = "contrib/development"
+projects[environment_indicator][type] = "module"
 
 ; Devel
-projects[devel][type]   = "module"
-projects[devel][subdir] = "contrib/development"
+projects[devel][type] = "module"
 
 ; DrupalforFirebug
-projects[drupalforfirebug][type]   = "module"
-projects[drupalforfirebug][subdir] = "contrib/development"
+projects[drupalforfirebug][type] = "module"
 
 ; Fields ==============================================
 ; Email
-projects[email][type]   = "module"
-projects[email][subdir] = "contrib/fields"
-
-; Field Collection
-projects[field_collection][type]   = "module"
-projects[field_collection][subdir] = "contrib/fields"
-
-; Field Group
-projects[field_group][type]   = "module"
-projects[field_group][subdir] = "contrib/fields"
+projects[email][type] = "module"
 
 ; Filters =============================================
 ; Pathologic
-projects[pathologic][type]   = "module"
-projects[pathologic][subdir] = "contrib/filters"
+projects[pathologic][type] = "module"
 
 ; SpamSpan
-projects[spamspan][type]   = "module"
-projects[spamspan][subdir] = "contrib/filters"
+projects[spamspan][type] = "module"
 
 ; Javascript Utilities ================================
 ; jQuery Update
-projects[jquery_update][type]   = "module"
-projects[jquery_update][subdir] = "contrib/javascript_utilities"
+projects[jquery_update][type] = "module"
 
 ; Path Management =====================================
 ; External Link
-projects[extlink][type]   = "module"
-projects[extlink][subdir] = "contrib/path_management"
+projects[extlink][type] = "module"
 
 ; Pathauto
-projects[pathauto][type]   = "module"
-projects[pathauto][subdir] = "contrib/path_management"
+projects[pathauto][type] = "module"
 
 ; Redirect
-projects[redirect][type]   = "module"
-projects[redirect][subdir] = "contrib/path_management"
-
-; Permissions =========================================
-; Override Node Options
-projects[override_node_options][type]   = "module"
-projects[override_node_options][subdir] = "contrib/permissions"
+projects[redirect][type] = "module"
 
 ; SEO =================================================
 ; Global Redirect
-projects[globalredirect][type]   = "module"
-projects[globalredirect][subdir] = "contrib/seo"
-
-; Google Analytics
-projects[google_analytics][type]   = "module"
-projects[google_analytics][subdir] = "contrib/seo"
+projects[globalredirect][type] = "module"
 
 ; MetaTag
-projects[metatag][type]   = "module"
-projects[metatag][subdir] = "contrib/seo"
+projects[metatag][type] = "module"
 
 ; XML Sitemap
-projects[xmlsitemap][type]   = "module"
-projects[xmlsitemap][subdir] = "contrib/seo"
+projects[xmlsitemap][type] = "module"
 
 ; UI Tweaks ===========================================
 ; Module Filter
-projects[module_filter][type]   = "module"
-projects[module_filter][subdir] = "contrib/ui_tweaks"
-
-; Permission Select
-projects[permission_select][type]   = "module"
-projects[permission_select][subdir] = "contrib/administration"
-
-; User Interface ======================================
-; Quickbar
-;projects[quickbar][type]   = "module"
-;projects[quickbar][subdir] = "contrib/user_interface"
-
-; WYSIWYG
-projects[wysiwyg][type]   = "module"
-projects[wysiwyg][subdir] = "contrib/user_interface"
+projects[module_filter][type] = "module"
 
 ; Users ===============================================
 ; Login Destination
-projects[login_destination][type]   = "module"
-projects[login_destination][subdir] = "contrib/users"
+projects[login_destination][type] = "module"
 
 ; Login Toboggan
-projects[logintoboggan][type]   = "module"
-projects[logintoboggan][subdir] = "contrib/users"
+projects[logintoboggan][type] = "module"
 
 ; Utilities ===========================================
 ; Copyright block
-projects[copyright_block][type]   = "module"
-projects[copyright_block][subdir] = "contrib/utilities"
+projects[copyright_block][type] = "module"
 
 ; DB Maintenance
-projects[db_maintenance][type]   = "module"
-projects[db_maintenance][subdir] = "contrib/utilities"
-
-; Fast Permissions Administration
-projects[fpa][type]   = "module"
-projects[fpa][subdir] = "contrib/utilities"
+projects[db_maintenance][type] = "module"
 
 ; Token
-projects[token][type]   = "module"
-projects[token][subdir] = "contrib/utilities"
+projects[token][type] = "module"
 
 ; Views ===============================================
 ; Views
-projects[views][type]   = "module"
+projects[views][type] = "module"
 projects[views][subdir] = "contrib/views"
 
 ; Custom ========================================================
 ; Promote
 projects[promote][type]             = "module"
-projects[promote][subdir]           = "custom"
 projects[promote][download][type]   = "git"
 projects[promote][download][url]    = "https://github.com/jacobneher/promote.git"
 projects[promote][download][branch] = "master"
@@ -209,17 +138,11 @@ projects[bedrock][download][branch] = "master"
 projects[omega][type]   = "theme"
 projects[omega][subdir] = "base"
 
-; Omega 4.x Custom Subtheme
-projects[flintstones][type]             = "theme"
-projects[flintstones][download][type]   = "git"
-projects[flintstones][download][url]    = "https://github.com/jacobneher/flintstones.git"
-projects[flintstones][download][branch] = "master"
-
 ; Adminimal (Administration theme)
 projects[adminimal_theme][type]   = "theme"
 projects[adminimal_theme][subdir] = "base"
 
-; Rubbles (Seven subtheme)
+; Rubbles (Adminimal subtheme)
 projects[rubbles][type]            = "theme"
 projects[rubbles][download][type]  = "git"
 projects[rubbles][download][url]   = "https://github.com/jacobneher/rubbles.git"
